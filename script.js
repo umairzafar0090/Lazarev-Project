@@ -5,10 +5,9 @@ function locomotiveAnimation() {
         el: document.querySelector("#main"),
         smooth: true,
 
-        // for tablet smooth
         tablet: { smooth: true },
 
-        // for mobile
+   
         smartphone: { smooth: true }
     });
     locoScroll.on("scroll", ScrollTrigger.update);
@@ -191,5 +190,6 @@ page2Animation()
 page3VideoAnimation()
 
 page6Animations()
+
 
 loadingAnimation()
